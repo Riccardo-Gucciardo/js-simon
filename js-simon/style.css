@@ -15,3 +15,6 @@
 input {
 	width: 80px !important;
 }
+.hidden{
+	opacity: 0;
+}

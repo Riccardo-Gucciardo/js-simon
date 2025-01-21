@@ -16,6 +16,17 @@ document.getElementById("numbers-list3").innerHTML = casualN3
 document.getElementById("numbers-list4").innerHTML = casualN4
 document.getElementById("numbers-list5").innerHTML = casualN5
 
+setTimeout(myfunction,2000);
+
+function myfunction() {
+    let scomparsaNumeri = document.getElementById('scomparsa')
+    let scomparsaIstruzioni = document.getElementById('instructions')
+
+    scomparsaNumeri.classList.add('hidden')
+    scomparsaIstruzioni.classList.add('hidden')
+}
+
+
 
 
     
