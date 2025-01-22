@@ -56,16 +56,6 @@ const input = document.querySelectorAll(".form-control")
 const numeriSceltiC = []
 const mesaggio =document.getElementById("message")
 
-
-    
-
-
-
-
-
-
-
-
 console.log(input);
 
 bottone.addEventListener('click', function(event){
@@ -85,6 +75,16 @@ bottone.addEventListener('click', function(event){
 
 mesaggio.innerHTML =`complimenti hai indovinato${numeriSceltiC.length}, e sono ${numeriSceltiC.join("-")}`
 })
+    
+
+
+
+
+
+
+
+
+
 
 
 
